@@ -1,0 +1,11 @@
+version: "3.5"
+services:
+  db:
+    image: mysql:5.7.34
+    container_name: mysql-container
+    environment:
+      MYSQL_DATABASE: "typeorm_db"
+      MYSQL_ROOT_PASSWORD: "password"
+    restart: "always"
+    ports:
+      - "13306:3306"
