@@ -15,7 +15,8 @@ docker compose で DB サーバーを起動
 sh docker compose up -d
 ```
 
-`typeorm_ormconfig.ts_example/.env`ファイルを作成
+`typeorm_ormconfig.ts_example/.env`ファイルを作成  
+以下を記述
 
 ```text
 # DB
