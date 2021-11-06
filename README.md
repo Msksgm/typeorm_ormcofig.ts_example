@@ -2,8 +2,8 @@
 
 ## 概要
 
-tsconfig.ts を読み込むサンプルアプリです．  
-詳しくは[こちらの記事](https://msksgm.hatenablog.com/entry/2021/06/18/074548)を参照
+tsconfig.ts を読み込むサンプルアプリです。
+詳しくは[こちらの記事](https://zenn.dev/msksgm/articles/20211107-typeorm-ormconfig)を参照してください。
 
 ## 準備
 
@@ -15,7 +15,7 @@ docker compose で DB サーバーを起動
 sh docker compose up -d
 ```
 
-`typeorm_ormconfig.ts_example/.env`ファイルを作成  
+`typeorm_ormconfig.ts_example/.env`ファイルを作成
 以下を記述
 
 ```text
